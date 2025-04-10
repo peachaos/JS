@@ -25,8 +25,21 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let number = 33
 
 let stringNumber = String(number)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+//console.log(stringNumber)
+//console.log(typeof stringNumber)
+
+// *********************Operations***************************
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+console.log(+true) //true
+console.log(+"") //false
+
+
+
 
 
 
